@@ -1,0 +1,302 @@
+* {
+  border-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* pushing left and right to the edge, leaving the middle spaced between */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10%;
+  /* giving 15px on the top and the bottom, 10% inbetween */
+  background-color: #202020;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav button {
+  background-color: transparent;
+  border: none;
+}
+
+.left-top-text a {
+  padding: 0px 20px;
+}
+
+.middle-top-text {
+  padding-right: 80px;
+}
+
+.shopping-cart {
+  fill: #fff;
+  float: right;
+  padding: 0px 25px;
+}
+
+.flag {
+  padding: 5px 25px;
+}
+
+.lower-nav button {
+  background-color: transparent;
+  border: none;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10%;
+}
+
+.lower-nav-links button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.lower-nav-links a {
+  padding: 0px 35px;
+}
+
+.empty-nav {
+  padding: 0px 70px;
+}
+
+.carousel img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sub-nav-links h4 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 20px;
+}
+
+.sub-nav-links img {
+  height: 250px;
+}
+
+.subNav1,
+.subNav2,
+.subNav3 {
+  padding: 0px 20px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.reviews {
+  padding-bottom: 40px;
+}
+
+.company-reviews {
+  text-align: center;
+  padding: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.review-logo-buttons {
+  text-align: center;
+}
+
+.review-logo-buttons img {
+  padding: 10px 40px;
+}
+
+.insta-section {
+  background-color: #000;
+}
+
+.insta-section__inner {
+  border-bottom: solid 1px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 0;
+  width: 90%;
+}
+
+.left-subheader {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-subheader img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.follow-count {
+  padding: 14px 0px 0px 20px;
+}
+
+.right-subheader {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right-subheader h5 {
+  padding: 16px 20px 0px 0px;
+  text-align: right;
+}
+
+.posts {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+}
+
+.posts img {
+  padding: 30px 8px;
+  height: 230px;
+}
+
+.enjoy-the-ride {
+  background-color: #000;
+  color: #fff;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.enjoy-the-ride-line {
+  background: #666;
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 1px;
+  z-index: 1;
+}
+
+.enjoy-the-ride-text {
+  height: 12px;
+  left: 0;
+  margin-top: -12px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  z-index: 2;
+}
+
+.enjoy-the-ride-title {
+  background: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  padding: 30px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+.enjoy-the-ride-subheader {
+  background: #000;
+  color: #666;
+  font-size: 1rem;
+  padding: 0px 0px 30px 0px;
+}
+
+.tunnel-footer-image img {
+  width: 100%;
+}
+
+.footer-nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-nav-company {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.footer-nav-explore {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.footer-nav-support {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+.input-field {
+  border: 2px solid #000;
+  height: 40px;
+  padding: 0 25px;
+  width: 150px;
+}
+
+.sub-button {
+  background-color: #000;
+  border: 2px solid #000;
+  color: white;
+  height: 44px;
+  left: -5px;
+  position: relative;
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
